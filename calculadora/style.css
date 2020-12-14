@@ -1,0 +1,51 @@
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator{
+    width:33%;
+    height:75%;
+    border:3px solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen{
+    height: 30%;
+    width: 80%;
+    border:3px solid;
+    margin: 3rem;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 3rem;
+    background-color: rgb(237, 247, 255);
+}
+.part{
+    height: 50%;
+    padding:0px 10px;
+}
+.second-part{
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse
+
+}
+.all-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border:3px solid;
+    width: 90%;
+    height: 50%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.button>button{
+    width: 100%;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 3em;
+}
